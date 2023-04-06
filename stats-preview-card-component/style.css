@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 380px;
+    border-radius: 10px;
+}
+
+.info-holder {
+    border-radius: 0 0 10px 10px;
+    background-color: hsl(244, 38%, 16%);
+    padding: 20px;
+}
+
+.info-holder h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.keyword {
+    color: hsl(277, 64%, 61%);
+}
+
+.info-holder p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+
+.stats {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.stats div {
+    margin-bottom: 20px;
+}
+
+.stats .value {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.stats .label {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.image-holder {
+    border-radius: 10px 10px 0 0;
+    background-image: url("./images/image-header-mobile.jpg");
+    background-color: hsl(277, 64%, 61%);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.tint {
+    border-radius: 10px 10px 0 0;
+    background-color: hsla(277, 64%, 61%, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 1000px) {
+    body {
+        height: 100vh;
+        align-items: center;
+        text-align: left;
+    }
+    main {
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .info-holder {
+        border-radius: 10px 0 0 10px;
+        padding: 40px;
+    }
+    .stats {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .stats div {
+        width: 33.33%;
+    }
+    .image-holder {
+        border-radius: 0 10px 10px 0;
+        grid-column: 2;
+        grid-row: 1;    
+        height: auto;
+        background-image: url("./images/image-header-desktop.jpg");       
+    }
+    .tint {
+        border-radius: 0 10px 10px 0;
+    }
+}
