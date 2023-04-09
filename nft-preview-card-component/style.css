@@ -78,6 +78,10 @@ p {
     align-self: center;
 }
 
+.imgp img {
+    align-self: center;
+}
+
 .creator {
     margin-top: 15px;
 }
@@ -94,5 +98,5 @@ p {
 }
 
 .eth {
-    color:hsl(178, 115%, 50%)
+    color: hsl(178, 115%, 50%)
 }
