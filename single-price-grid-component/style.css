@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+main {
+    max-width: 340px;
+    margin: auto;
+}
+
+.section1 {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.section1 h1 {
+    padding: 10px 0;
+    color: hsl(179, 62%, 43%);
+}
+
+.section1 h3 {
+    padding: 20px 0;
+    color: hsl(71, 73%, 54%);
+}
+
+.section1 p {
+    color: hsl(218, 22%, 67%);
+    line-height: 30px;
+    padding: 0 0 20px 0;
+}
+
+.section2 {
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+}
+
+.section2 h3 {
+    color: white;
+    padding: 10px 0;
+}
+
+.deal {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.deal h1 {
+    font-size: 30px;
+    color: white;
+    margin-right: 5px;
+}
+
+.deal p {
+    align-self: center;
+}
+
+.section2 p {
+    color: hsl(204, 43%, 93%);
+}
+
+button {
+    width: 100%;
+    margin: 30px 0 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    color: white;
+    box-shadow: 1px 1px 5px hsl(179, 62%, 35%);
+}
+
+.section3 {
+    background-color: hsl(179, 62%, 45%);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.section3 h3 {
+    color: white;
+    padding: 10px 0;
+}
+
+.section3 ul {
+    padding: 10px 0;
+}
+
+.section3 li {
+    color: hsla(204, 43%, 93%, 0.7);
+    padding: 5px 0;
+}
+
+@media (min-width: 630px) {
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding: 30px;
+    }
+
+    .section2 {
+        padding: 30px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .section3 {
+        padding: 30px;
+        border-radius: initial;
+        border-bottom-right-radius: 10px;
+    }
+
+    .section2 h3 {
+        padding: 20px 0;
+    }
+
+    .deal {
+        padding: 20px 0 10px 0;
+    }
+
+    button {
+        width: 100%;
+        margin: 40px 0 10px 0;
+        padding: 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: hsl(71, 73%, 54%);
+        font-weight: 700;
+        color: white;
+        box-shadow: 1px 1px 5px hsl(179, 62%, 35%);
+    }
+
+}
