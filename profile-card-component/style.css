@@ -8,7 +8,6 @@
 
 body {
     height: 100vh;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,20 +15,11 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     color: hsl(227, 10%, 46%);
-}
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185deg, 75%, 39%);
 
-.bg-top {
-    position: fixed;
-    width: 100vw;
-    top: -50vw;
-    left: -50vw;
-}
-
-.bg-bottom {
-    position: fixed;
-    width: 100vw;
-    bottom: -50vw;
-    right: -50vw;
 }
 
 main {
