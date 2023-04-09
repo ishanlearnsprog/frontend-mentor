@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.bg-top {
+    position: fixed;
+    width: 100vw;
+    top: -50vw;
+    left: -50vw;
+}
+
+.bg-bottom {
+    position: fixed;
+    width: 100vw;
+    bottom: -50vw;
+    right: -50vw;
+}
+
+main {
+    min-width: 340px;
+    max-width: 240px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.header {
+    position: absolute;
+    z-index: 1;
+}
+
+.profile {
+    position: absolute;
+    border: 4px solid white;
+    border-radius: 50%;
+    top: 90px;
+    left: 118px;
+    z-index: 2
+}
+
+.info-holder {
+    background-color: white;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.info-holder h1 {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.name-age {
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.name-age h1 {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.name-age+p {
+    margin-bottom: 25px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.metric h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.metric p {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+hr {
+    border-top: 0.5px solid hsl(0, 0%, 59%);
+}
