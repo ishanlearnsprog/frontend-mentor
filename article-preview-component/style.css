@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+
+main {
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.info-holder {
+    padding: 3rem 3rem 2rem;
+}
+
+.info-holder h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: hsl(217, 19%, 35%);
+}
+
+.info-holder p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: hsl(214, 17%, 51%);
+}
+
+footer {
+    padding: 1.5rem 3rem;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+}
+
+.name-and-date {
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+.name-and-date h1 {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}
+
+.name-and-date p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.profile img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.share-circle {
+    align-self: center;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+    padding: .8rem;
+}
+
+.share {
+    display: flex;
+}
+
+.share p {
+    align-self: center;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+}
+
+.links {
+    margin-left: 10px;
+    height: auto;
+    display: flex;
+}
+
+.links i {
+    align-self: center;
+    margin: 0 1rem
+}
+
+.footer-tooltip {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(214, 17%, 51%);
+}
+
+.links-tooltip i {
+    color: white;
+}
+
+.gone {
+    display: none;
+}
+
+.share-circle-tooltip {
+    background-color: hsl(214, 17%, 51%);
+}
+
+.share-btn-tooltip {
+    color: white;
+}
