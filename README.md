@@ -6,5 +6,5 @@ These are my solutions to challenges on Forntend-Mentor.
 
 I will commit new solutions when I practise my CSS.
 
-You can see my solution live on: https://ishanlearnsprog.github.io/frontend-mentor/[add-name-of-solution]
+You can see my solution live on: https://ishanlearnsprog.github.io/frontend-mentor/[add-name-of-solution]\
 For ex: https://ishanlearnsprog.github.io/frontend-mentor/faq-accordion-card/
